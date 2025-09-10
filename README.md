@@ -73,6 +73,3 @@ d) Zabur
 This project demonstrates how basic Python concepts like classes, loops, and conditionals can be combined into an interactive program.
 
 It’s a fun way to learn Python, test your knowledge about Islam, and even share with friends.
-This project demonstrates how basic Python concepts like classes, loops, and conditionals can be combined into an interactive program.
-
-It’s a fun way to learn Python, test your knowledge about Islam, and even share with friends.
