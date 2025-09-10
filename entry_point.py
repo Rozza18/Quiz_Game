@@ -7,9 +7,9 @@ QUIT_GAME = False
 while True:
     print("Welcome to the 'U Think U know Islam' quiz!")
     print("1. Start Quiz")
-    print("2. Exit")
+    print("2. Exit or type 'quit' or 'exit'")
     choice = input("Please Enter your option (1 or 2): ")
-    if choice == '2':
+    if choice == '2' or choice.lower() in ['quit', 'exit']:
         print("Thank you for visiting! Goodbye!")
         break
     elif choice == '1':
@@ -25,6 +25,12 @@ while True:
                 if player_answer.lower() == q.right_answer and q.level != MAX_LEVEL:
                     new_player.answer_right()
                     break
+
+                elif player_answer.lower() not in q.options.keys():
+                    print("""
+                          please enter valid option key code, or type 'exit' or 'quit' if u want to close the quiz
+                          """)
+
                 elif player_answer.lower() == q.right_answer and q.level == MAX_LEVEL:
                     new_player.won()
                     QUIT_GAME = True
@@ -41,6 +47,7 @@ while True:
                     break
             if QUIT_GAME is True:
                 break
+
     else:
         print("Invalid option. Please try again.")
         continue
