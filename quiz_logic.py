@@ -48,7 +48,7 @@ class Player:
             self.level = MAX_LEVEL
         print(f"""
               Congratulations! This is the correct answer and you are moving to next level, level: {self.level}
-              """)
+              """ if self.level != MAX_LEVEL else "")
         return self.level
 
     def answer_wrong(self):

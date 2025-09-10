@@ -2,6 +2,8 @@
 """Entry point for the U_Think_U_know_Islam quiz"""
 from quiz_logic import Player, MAX_LEVEL
 
+QUIT_GAME = False
+
 while True:
     print("Welcome to the 'U Think U know Islam' quiz!")
     print("1. Start Quiz")
@@ -25,18 +27,20 @@ while True:
                     break
                 elif player_answer.lower() == q.right_answer and q.level == MAX_LEVEL:
                     new_player.won()
+                    QUIT_GAME = True
                     break
-                # make sure after the player says he want to continue, the right question is displayed
+                #sure after the player says he want to continue, the right question is displayed
                 elif player_answer.lower() in ['exit', 'quit']:
                     player_conf = new_player.end_quiz()
                     if player_conf in ['yes', 'y']:
+                        QUIT_GAME = True
                         break
-                    else:
-                        continue
                 else:
                     new_player.answer_wrong()
+                    QUIT_GAME = True
                     break
-
+            if QUIT_GAME is True:
+                break
     else:
         print("Invalid option. Please try again.")
         continue
