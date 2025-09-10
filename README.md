@@ -18,7 +18,7 @@ This project was created as part of my Python learning journey to combine educat
 ✅ Extendable: add more questions easily
 
 📂 Project Structure
-U_Think_U_Know_Islam/
+Quiz_Game/
 │── entry_point.py       # Main entry to run the program
 │── question_class.py    # Question class definition
 │── questions.py         # Quiz question objects (15 total)
@@ -28,12 +28,12 @@ U_Think_U_Know_Islam/
 
 Clone this repository:
 
-git clone https://github.com/your-username/U_Think_U_Know_Islam.git
+git clone https://github.com/Rozza18/Quiz_Game.git
 
 
 Navigate to the project folder:
 
-cd U_Think_U_Know_Islam
+cd Quiz_Game
 
 
 Run the game:
@@ -42,7 +42,7 @@ python entry_point.py
 
 🖼️ Demo
 
-(Add a screenshot or GIF of your terminal running the quiz here)
+(Add a screenshot or GIF of my terminal running the quiz here)
 
 Example:
 
@@ -58,10 +58,7 @@ c) Quran
 d) Zabur
 
 🔗 GitHub Link
-
-👉 View the Code on GitHub
-
-(replace with your actual repo URL)
+(https://github.com/Rozza18/Quiz_Game)
 
 📌 Future Improvements
 
@@ -73,6 +70,9 @@ d) Zabur
 
 🙌 Conclusion
 
+This project demonstrates how basic Python concepts like classes, loops, and conditionals can be combined into an interactive program.
+
+It’s a fun way to learn Python, test your knowledge about Islam, and even share with friends.
 This project demonstrates how basic Python concepts like classes, loops, and conditionals can be combined into an interactive program.
 
 It’s a fun way to learn Python, test your knowledge about Islam, and even share with friends.
