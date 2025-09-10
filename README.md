@@ -42,20 +42,8 @@ python entry_point.py
 
 🖼️ Demo
 
-(Add a screenshot or GIF of my terminal running the quiz here)
+<img width="1031" height="779" alt="image" src="https://github.com/user-attachments/assets/f0c1de30-5974-4c59-b6d6-b6a85873bd02" />
 
-Example:
-
-Welcome to the 'U Think U know Islam' quiz!
-1. Start Quiz
-2. Exit
-
-Enter your name: Radwa
-1. What is the holy book of Islam?
-a) Bible
-b) Torah
-c) Quran
-d) Zabur
 
 🔗 GitHub Link
 (https://github.com/Rozza18/Quiz_Game)
