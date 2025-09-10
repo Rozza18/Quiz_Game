@@ -20,8 +20,11 @@ This project was created as part of my Python learning journey to combine educat
 📂 Project Structure
 Quiz_Game/
 │── entry_point.py       # Main entry to run the program
+
 │── question_class.py    # Question class definition
+
 │── questions.py         # Quiz question objects (15 total)
+
 │── quiz_logic.py        # (if you add it) Player/Quiz logic
 
 🚀 How to Run
@@ -42,7 +45,7 @@ python entry_point.py
 
 🖼️ Demo
 
-<img width="1031" height="779" alt="image" src="https://github.com/user-attachments/assets/f0c1de30-5974-4c59-b6d6-b6a85873bd02" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f0c1de30-5974-4c59-b6d6-b6a85873bd02" />
 
 
 🔗 GitHub Link
