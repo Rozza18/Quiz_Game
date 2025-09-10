@@ -18,22 +18,25 @@ This project was created as part of my Python learning journey to combine educat
 ✅ Extendable: add more questions easily
 
 📂 Project Structure
-U_Think_U_Know_Islam/
+Quiz_Game/
 │── entry_point.py       # Main entry to run the program
+
 │── question_class.py    # Question class definition
+
 │── questions.py         # Quiz question objects (15 total)
+
 │── quiz_logic.py        # (if you add it) Player/Quiz logic
 
 🚀 How to Run
 
 Clone this repository:
 
-git clone https://github.com/your-username/U_Think_U_Know_Islam.git
+git clone https://github.com/Rozza18/Quiz_Game.git
 
 
 Navigate to the project folder:
 
-cd U_Think_U_Know_Islam
+cd Quiz_Game
 
 
 Run the game:
@@ -42,26 +45,11 @@ python entry_point.py
 
 🖼️ Demo
 
-(Add a screenshot or GIF of your terminal running the quiz here)
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f0c1de30-5974-4c59-b6d6-b6a85873bd02" />
 
-Example:
-
-Welcome to the 'U Think U know Islam' quiz!
-1. Start Quiz
-2. Exit
-
-Enter your name: Radwa
-1. What is the holy book of Islam?
-a) Bible
-b) Torah
-c) Quran
-d) Zabur
 
 🔗 GitHub Link
-
-👉 View the Code on GitHub
-
-(replace with your actual repo URL)
+(https://github.com/Rozza18/Quiz_Game)
 
 📌 Future Improvements
 
